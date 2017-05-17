@@ -1,7 +1,6 @@
 #!/bin/sh
 #Script de Init - Matheus Bona
 #mateus.bona@gmail.com
-#Se der pau não me chama :D
 
 echo "Carregando o PHP em /www/public"
 

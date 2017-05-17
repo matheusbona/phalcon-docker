@@ -2,7 +2,7 @@ FROM alpine:edge
 
 MAINTAINER mateus.bona@gmail.com
 
-RUN apk update && apk add --no-cache php5 php5-mcrypt php5-mysql php5-gd php5-xml php5-pdo php5-soap php5-curl php5-json php5-dev php5-phar php5-openssl php5-zlib php5-pear curl git gcc make pcre-dev autoconf g++ libc-dev bash
+RUN apk update && apk add --no-cache php5 php5-mcrypt php5-mysql php5-gd php5-xml php5-pdo php5-soap php5-curl php5-json php5-dev php5-phar php5-openssl php5-zlib php5-pear php5-pdo php5-pdo_mysql curl git gcc make pcre-dev autoconf g++ libc-dev bash
 
 WORKDIR /
 COPY init.sh /
